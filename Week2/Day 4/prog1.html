@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <h2>JSON object creation in JavaScript</h2>
+   
+   <p id="demo"></p>
+   
+   <script>
+      var text = '{"name":"John Johnson","street":"Oslo West 16","phone":"5557767874"}';
+	  var obj = JSON.parse(text);
+	  
+	  document.getElementById("demo").innerHTML = 
+	  obj.name + "<br>" +
+	  obj.street + "<br>" +
+	  obj.phone;
+   </script>
+</body>
+</html>
