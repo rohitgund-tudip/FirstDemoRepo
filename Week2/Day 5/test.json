@@ -11,10 +11,16 @@
 	 "lastname":"Gund","Address":"India"},
 	 {"firstname":"Tudip",
 	 "lastname":"technologies","Address":"Pune"},
+<<<<<<< HEAD
 	 {"firstname":"Gurunath",
 	  "lastname":"Kalburgi"
 	 },
 	 {"firstname":"Shrikant",
 	  "lastname":"Shiledar"
 	 }
+=======
+	 {"firstname":"Piyush",
+	 "lastname":"zalani","Address":"Pune"},
+	 
+>>>>>>> 91c678789deca0853b52586f1067b75ad81feedf
 ]
