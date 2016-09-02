@@ -1,0 +1,27 @@
+.block, h1, div.menu, div.menu2, div.bikes {
+  border: 1px solid powderblue; }
+
+h1 {
+  color: blue;
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: orange; }
+
+div.menu {
+  background-color: orange;
+  margin: 20px 100px 20px 100px;
+  padding: 20px;
+  word-spacing: 10px; }
+
+div.menu2 {
+  background-color: orange;
+  margin: 20px 100px 10px 100px;
+  padding: 10px; }
+
+div.bikes {
+  float: left;
+  margin: 20px 100px 20px 100px;
+  padding: 20px;
+  height: 300px; }
+
+/*# sourceMappingURL=style.css.map */

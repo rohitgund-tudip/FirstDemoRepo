@@ -1,0 +1,32 @@
+     .block {border: 1px solid powderblue;}
+	 @padSize: 10px;
+	 h1 { 
+         color:blue; 
+         font-family:"Times New Roman";
+         text-align:center;
+         &:extend(.block);
+         background-color:orange;
+     }
+     div.menu {
+        background-color: orange;
+        margin: 20px 100px 20px 100px;
+        padding: @padSize * 2; 
+        &:extend(.block);
+        word-spacing:10px;
+      
+     } 
+   
+     div.menu2 {
+        background-color: orange;
+        margin: 20px 100px 10px 100px;
+        padding: @padSize; 
+        &:extend(.block);
+     }
+ 
+     div.bikes {
+       float: left;
+       margin: 20px 100px 20px 100px;
+       padding: @padSize + 10;
+       height: 300px;
+       &:extend(.block);
+     }
